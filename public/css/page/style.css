@@ -1,0 +1,53 @@
+.yoy{
+  width:500px;
+  height: 500px;
+  text-align: center;
+  background-color: #232323;
+  margin-top: 25%;
+  margin-bottom: 25px;
+}
+body{
+  background-color: black;
+}
+
+.sticky {
+  z-index: 100;
+  background-color:#f8f9fa;
+  color:black; 
+  border-top:solid 2px black;
+  width:100%;
+  position: relative;
+ 
+}
+
+.logo{
+  position: absolute;
+  top:40px;
+  margin-left: -400px;
+font-size: 20px;
+  color: black;
+}
+.sticky2 {
+  z-index: 100;
+  background-color:#f8f9fa;
+  color:black; 
+  border-top:solid 2px black;
+  width:100%;
+  position: fixed;
+  display: none;
+}
+
+
+.slide{
+  height:300px;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.carousel-item{
+}
+
+.navbar{
+  z-index: 100;
+}
